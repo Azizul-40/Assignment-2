@@ -59,8 +59,39 @@ list-style: none;
 
 /* End-1  */
 
-/* Fresh Flower-3 */
+/* Start part-2 */
 .part2{
+  max-width: 1140px;
+  max-height: 461px;
+  padding-top: 100px;
+  /* background-color: aquamarine; */
+  margin: 0 auto;
+  display: flex;
+}
+.gap162{
+  padding-top: 75px;
+}
+.info h1{
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.3rem;
+}
+.info p{
+  font-size: 24px;
+  color:#8987A1 ;
+}
+.img img{
+  height: 355px;
+  width: 570px;
+}
+.clr3{
+  color: #E95A08;
+}
+
+/* End part-2 */
+
+/* Fresh Flower-3 */
+.part3{
   max-width: 1140px;
   max-height: 1187px;
   margin: 0 auto;
@@ -75,7 +106,7 @@ list-style: none;
 .clr3{
   color: #E95A08;
 }
-.part2 p{
+.part3 p{
   font-size: 1.2rem;
   text-align:center;
   color: #727272;
@@ -165,6 +196,35 @@ list-style: none;
   .nav a img{
     padding-left: 150px;
   }
+ /* End part-1 */
+/* Start part-2 */
+.part2{
+  /* width: 393px;
+  height: 245px;  */
+  padding-top: 100px;
+  flex-direction: column-reverse;
+
+}
+.info{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.info h1{
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1rem;
+  margin-top: -10px;
+}
+.info p{
+  font-size: 14px;
+  color:#8987A1 ;
+}
+.img img{
+  height: 245px;
+  width: 393px;
+  margin-bottom: -10px;
+}
+/* End part-2 */
 
   /* Start 3 */
   .card-container{
