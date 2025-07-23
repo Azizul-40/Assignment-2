@@ -59,7 +59,7 @@ list-style: none;
 
 /* End-1  */
 
-/* Fresh Flower-2 */
+/* Fresh Flower-3 */
 .part2{
   max-width: 1140px;
   max-height: 1187px;
@@ -89,6 +89,10 @@ list-style: none;
 .card-container{
   max-width: 270px;
   max-height: 485px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  row-gap: 20px;
+  column-gap: 20px;
   /* background-color: #E95A08; */
 }
 .card img{
@@ -125,7 +129,7 @@ list-style: none;
 .card button:hover {
   background-color: gold;
 }
-/* End-2 */
+/* End-3 */
 
 
 /* Media section */
@@ -161,4 +165,16 @@ list-style: none;
   .nav a img{
     padding-left: 150px;
   }
+
+  /* Start 3 */
+  .card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+  padding: 30px;
+  }
+  .card img{
+  width: 200px;
+}
 }
