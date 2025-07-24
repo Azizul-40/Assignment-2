@@ -121,7 +121,6 @@ list-style: none;
 }
 .card-container{
   max-width: 1140px;
-  /* max-height: 485px; */
   display: grid;
   grid-template-columns: repeat(4,1fr);
   row-gap: 20px;
@@ -156,7 +155,7 @@ list-style: none;
   border-radius: 6px;
   cursor: pointer;
   margin-top: 10px;
-  transition: background-color 0.3s ease;
+  /* transition: background-color 0.2s ease; */
 }
 
 .card button:hover {
@@ -330,7 +329,56 @@ list-style: none;
   background-color: #E95A08;
    border: none;
 }
+.input button:hover {
+  background-color: black;
+}
  /* End part-7 */
+
+ /* footert */
+ footer{
+  display: flex;
+  width: 1120px;
+  height: 248px;
+  margin: 30px auto;
+ }
+ .img-info{
+  width: 359px;
+  height: 179px;
+  margin-right: 50px;
+ }
+ .img-info img{
+  height: 82px;
+  width: 135px;
+ }
+ .img-info p{
+  font-size: 1.25rem;
+  color: #727272;
+  text-align: justify;
+ }
+ .list ul {
+  display: grid;
+  grid-template-columns: repeat(2, auto); 
+  gap: 10px 60px; 
+  padding-top: 30px;
+  margin: 0;
+  list-style: none;
+  padding-right: 30px;
+}
+
+.list ul li {
+  color: #727272;
+}
+.icon img{
+  margin-top: 30px;
+  margin-left: 30px;
+  gap: 10px;
+  height: 29px;
+  width: 29px;
+}
+.list ul li:hover {
+  background-color: aquamarine;
+}
+ /* end footer */
 
 /* Media section */
 @media screen and (max-width: 576px) {
@@ -532,5 +580,31 @@ list-style: none;
     padding: 0 10px;
   }
   /* End part-7 */
+
+  /* footer */
+  footer{
+    display: inline-block;
+    margin-top: -30px;
+    padding-left: 20px;
+    height: 600px;
+    width: 393px;
+  }
+  .icon img{
+  margin-top: 15px;
+  margin-left: 0px;
+  gap: 30px;
+  height: 25px;
+  width: 25px;
+  margin-bottom: 0px;
+}
+.list ul {
+  display: grid;
+  grid-template-columns: repeat(1, auto); 
+  padding-left: 0px;
+}
+.list ul li:hover {
+  background-color: aquamarine;
+  width: 130px;
+}
 
 }
