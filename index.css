@@ -408,6 +408,7 @@ list-style: none;
     /* margin-left: 100pz; */
     height: 40px;
     width: auto;
+    
   }
   .nav a img{
     padding-left: 150px;
@@ -417,6 +418,7 @@ list-style: none;
 .part2{
   /* width: 393px;
   height: 245px;  */
+  display: flex;
   padding-top: 100px;
   flex-direction: column-reverse;
 
@@ -435,11 +437,13 @@ list-style: none;
   font-size: 14px;
   color:#8987A1 ;
 }
-.img img{
-  height: 245px;
-  width: 393px;
-  margin-bottom: -10px;
+.img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
 }
+
 /* End part-2 */
 
   /* Start 3 */
@@ -490,7 +494,7 @@ list-style: none;
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 750px;
+    top: 730px;
   }
   .part5 h1{
     font-size: 1.3rem;
